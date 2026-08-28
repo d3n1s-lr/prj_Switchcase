@@ -6,8 +6,10 @@ public class Escolinha {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int idade;
+		
 		System.out.println("Digite a idade do aluno:");
 		idade = in.nextInt();
+		
 		switch(idade) {
 		case 6:
 			System.out.println("dente de leite");
