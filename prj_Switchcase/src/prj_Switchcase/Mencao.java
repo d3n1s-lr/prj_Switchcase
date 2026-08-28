@@ -8,8 +8,8 @@ public class Mencao {
 		String mencao;
 		
 		System.out.println("Digite a menção:");
-		
 		mencao = in.next();
+		
 		switch(mencao) {
 		case "MB":
 			System.out.println("Excelente Desempenho");
