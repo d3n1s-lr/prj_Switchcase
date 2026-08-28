@@ -6,8 +6,10 @@ public class Cantina {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int cod;
+		
 		System.out.println("Digite o código do item:");
 		cod = in.nextInt();
+		
 		switch(cod) {
 		case 1:
 			System.out.println("Cachorro quente, R$8,00");
