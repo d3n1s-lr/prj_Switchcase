@@ -6,7 +6,9 @@ public class Mencao {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		String mencao;
+		
 		System.out.println("Digite a menção:");
+		
 		mencao = in.next();
 		switch(mencao) {
 		case "MB":
